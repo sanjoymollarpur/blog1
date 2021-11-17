@@ -1,0 +1,31 @@
+.item{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.nav-txt{
+    text-align: center;
+}
+.nav-txt1{
+    writing-mode: vertical-rl;
+    font-weight: 700;
+    font-size: medium;
+    /* text-orientation: upright; */
+}
+.nav-txt2{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.ll{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:768px) {
+    .item{
+        display: none;
+    }
+    .nav-txt{
+        text-align: left;
+        margin: 10px 30px;
+    }
+}

@@ -1,0 +1,24 @@
+.adver{
+    width: 340px;
+    height: 600px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(128, 120, 120);
+}
+.con-s3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.txt-s3{
+    text-align: center;
+    margin-top: 100%;
+}
+@media screen and (max-width:768px) {
+    .adver{
+        display: none;
+    }
+    .con-s3{
+        justify-content: space-around;
+    }
+    
+}

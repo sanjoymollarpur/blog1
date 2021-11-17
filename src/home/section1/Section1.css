@@ -1,0 +1,61 @@
+
+.card-con{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    
+    grid-gap: 4px;
+}
+.card-item1{
+    width: 100%;
+    height: 500px;
+   
+    grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url('../../images/hillriver.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+.card-item2{
+    width: 100%;
+    height: 247px;   
+    
+    background-image: url("https://i.guim.co.uk/img/media/82e7d3919366f8d52115dc54bbce3bae0b7c66f9/1103_290_4677_2806/master/4677.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=08ead1131e7b866b0a17bc1b43e6c724");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.card-item3{
+    position: relative;
+    width: 100%;
+    height: 247px;
+   
+    background-image: url("https://i.insider.com/618af81323745d001825c836?width=1200&format=jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-txt-s1{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    color: aliceblue;
+}
+.card-txt1-s1{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    color: aliceblue;
+
+}
+.card-txt2-s1{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    color: aliceblue;
+}
+@media screen and (max-width:768px) {
+    .card-con{
+        display: block;
+    }
+}

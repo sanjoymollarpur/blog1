@@ -1,0 +1,60 @@
+
+.card-con-s4{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    
+    grid-gap: 4px;
+}
+.card-item1-s4{
+    width: 100%;
+    height: 750px;
+    
+    grid-row-start: 1;
+  grid-row-end: 4;
+  background-image: url("https://assets.entrepreneur.com/providers/zacks/hero-image-zacks-396425.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.card-item2-s4{
+    width: 100%;
+    height: 247px;   
+    
+    background-image: url('../../images/hillriver1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.card-item3-s4{
+    position: relative;
+    width: 100%;
+    height: 247px;
+    border: 1px solid red ;
+    background-image: url('../../images/hillriver.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-txt-s4{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    color: aliceblue;
+}
+.card-txt1-s4{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    color: aliceblue;
+
+}
+.card-txt2-s4{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    color: aliceblue;
+}
+@media screen and (max-width:768px) {
+    .card-con-s4{
+        display: block;
+    }
+}
