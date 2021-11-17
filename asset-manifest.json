@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/blog1/static/css/main.37c29846.chunk.css",
+    "main.js": "/blog1/static/js/main.6a666ce7.chunk.js",
+    "main.js.map": "/blog1/static/js/main.6a666ce7.chunk.js.map",
+    "runtime-main.js": "/blog1/static/js/runtime-main.4c791bd6.js",
+    "runtime-main.js.map": "/blog1/static/js/runtime-main.4c791bd6.js.map",
+    "static/js/2.144226a4.chunk.js": "/blog1/static/js/2.144226a4.chunk.js",
+    "static/js/2.144226a4.chunk.js.map": "/blog1/static/js/2.144226a4.chunk.js.map",
+    "static/js/3.1751dca0.chunk.js": "/blog1/static/js/3.1751dca0.chunk.js",
+    "static/js/3.1751dca0.chunk.js.map": "/blog1/static/js/3.1751dca0.chunk.js.map",
+    "index.html": "/blog1/index.html",
+    "static/css/main.37c29846.chunk.css.map": "/blog1/static/css/main.37c29846.chunk.css.map",
+    "static/js/2.144226a4.chunk.js.LICENSE.txt": "/blog1/static/js/2.144226a4.chunk.js.LICENSE.txt",
+    "static/media/Section4.css": "/blog1/static/media/hillriver.016bdc33.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c791bd6.js",
+    "static/js/2.144226a4.chunk.js",
+    "static/css/main.37c29846.chunk.css",
+    "static/js/main.6a666ce7.chunk.js"
+  ]
+}
